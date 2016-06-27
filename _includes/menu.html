@@ -1,0 +1,18 @@
+<!---<div class="menu topmenu">
+   		  <a href="/">Mindstep Media</a>
+<a href="/referenser" class="selected">Referenser</a>
+<a href="/#contact">Kontakt</a>
+</div>
+-->
+ 
+ <div class="menu topmenu">
+   	
+ {% for node in site.pages %}
+    {% if page.url == node.url %}
+      <a href="{{node.url}}" class="selected">{{node.menu}}</a>
+    {% else %}
+      <a href="{{node.url}}">{{node.menu}}</a>
+    {% endif %}
+  {% endfor %}
+  <a href="/#contact">Kontakt</a>
+</div>

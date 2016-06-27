@@ -1,0 +1,21 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Mindstep Media Handelsbolag
+email: calle.svensson@mindstepmedia.se
+description: > # this means to ignore newlines until "baseurl:"
+  Vårt mål är att skapa webblösningar som gör det enklare för er och era besökare, att skapa webblösningar som håller.
+  Vad än ni kan behöva hjälp med på webben, så finns vi här för en bättre och mer njutbar upplevelse.
+  Vi bygger både små och stora webblösningar, utefter era önskemål. Hur kan vi hjälpa dig?
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://mindstepmedia.se" # the base hostname & protocol for your site
+twitter_username: mindstep
+github_username:  ZetaTwo
+
+# Build settings
+markdown: kramdown
